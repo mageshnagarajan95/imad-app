@@ -4,12 +4,12 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
-var articles ={
+var article ={
 'article-one':{title:'article-one',  
 heading:'article-one',
 date:'sept 5, 2016',
 content:
- `hello this is my article`,
+ 'hello this is my article',
 },
 'article-two':{ title:'article-two',  
 heading:'article-two',
