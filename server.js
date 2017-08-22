@@ -35,7 +35,7 @@ var htmlTemplate =` <!doctype html>
     <head>
         <title>${title}</title>
         <link rel="stylesheet" href="ui/style.css"/>
-        <meta name="viewport" content="width-device-width, [title1-scale-1]"/>
+        <meta name="viewport" content="width-device-width, initial-scale-1]"/>
     </head>
     <body>
         <div id="doc">
