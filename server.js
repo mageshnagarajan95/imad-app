@@ -10,18 +10,18 @@ heading:'article-one',
 date:'sept 5, 2016',
 content:
  `hello this is my article`,
-};
+},
 `article-two`:{title:'article-two',  
 heading:'article-two',
 date:'sept 15, 2016',
 content:
- "hello this is my article"};
+ "hello this is my article"},
  `article-three`:{title:'article-three',  
 heading:'article-three',
 date:'sept 20, 2016',
 content:
  "hello this is my article"}
-};
+}};
  
 function createTemplate(data){
     var title=data.title;
