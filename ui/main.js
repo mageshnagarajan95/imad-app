@@ -1,3 +1,3 @@
 console.log('Loaded!');
-var element=document.getElementsByClassName('center');
+var element=document.getElementById('main-text');
 element.innerHTML= "New value";
