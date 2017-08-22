@@ -43,15 +43,15 @@ var htmlTemplate =` <!doctype html>
             <a href="/">home</a>
         </div>
         <hr/>
-        <div>
+        <h1>
             ${heading};
-        </div>
-        <div>
+        </h1>
+        <p>
             ${date};
-            </div>
-            <div>
+            </p>
+            <p>
                 ${content};
-            </div>
+            </p>
             </div>
             
     </body>
