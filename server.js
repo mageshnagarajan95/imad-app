@@ -10,12 +10,12 @@ heading:'article-one',
 date:'sept 5, 2016',
 content:
  `hello this is my article`,
-},
+};
 `article-two`:{title:'article-two',  
 heading:'article-two',
 date:'sept 15, 2016',
 content:
- "hello this is my article"},
+ "hello this is my article"};
  `article-three`:{title:'article-three',  
 heading:'article-three',
 date:'sept 20, 2016',
@@ -68,7 +68,7 @@ app.get('/', function (req, res) {
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
-app.get('/articleName', function(req, res){
+app.get('/:articleName', function(req, res){
     var articleName=req.param.articleName;
    res.send(createTemplate(article[articleName]));
 });
