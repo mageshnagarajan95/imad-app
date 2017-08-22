@@ -44,13 +44,13 @@ var htmlTemplate =` <!doctype html>
         </div>
         <hr/>
         <h1>
-            ${heading};
+            ${heading}
         </h1>
         <p>
-            ${date};
+            ${date}
             </p>
             <p>
-                ${content};
+                ${content}
             </p>
             </div>
             
